@@ -1,8 +1,8 @@
-Library Application
+# [Library Application](https://library1.herokuapp.com)
 
 Admin:
 
-Url : https://library1.herokuapp.com/admin
+navigate to Admin Login,
 
 username : admin@example.com
 
@@ -10,7 +10,7 @@ password : password
 
 User:
 
-Url : https://library1.herokuapp.com/
+navigate to login,
 
 username:email which is used while signing up
 
