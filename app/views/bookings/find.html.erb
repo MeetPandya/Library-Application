@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+<p id="error"><%= flash[:error] %></p>
+<p id="notice"><%= flash[:notice] %></p>
+<h1>Bookings</h1>
+
+<% if current_user.hasBooked==1 and current_user.allowMultiple==0 %>
+    <h1> You have already booked a room</h1>
+    <h3> Please contact administrator to Book more or cancel the existing Booking</h3>
+<% else %>
+    <%= render 'form', booking: @booking %>
+<% end %>
+<table>
+  <thead>
+  <tr>
+    <th>Room</th>
+    <th>Date</th>
+    <th>Timefrom</th>
+    <th>Timeto</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @bookings.each do |booking| %>
+      <tr>
+        <td><%= booking.room_id %></td>
+        <td><%= booking.date %></td>
+        <td><%= booking.timefrom %></td>
+        <td><%= booking.timeto %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+<%= link_to 'Back', rooms_path %>

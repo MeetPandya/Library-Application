@@ -1,0 +1,53 @@
+<%= form_for(booking) do |f| %>
+    <div class="field">
+      <%= f.label :luser_id %>
+      <%= f.number_field :luser_id %>
+    </div>
+
+    <div class="field">
+      <%= f.label :room_id %>
+      <%= f.number_field :room_id %>
+    </div>
+
+    <div class="field">
+      <%= f.label :date %>
+      <%= f.text_field :date %>
+    </div>
+
+    <div class="field">
+      <%= f.label :timefrom %>
+      <%= f.time_select :timefrom,
+                        :combined => true,
+                        :default => Time.now.change(:hour => 11, :min => 30),
+                        :minute_interval => 15,
+                        :time_separator => "",
+                        :start_hour => 00,
+                        :start_minute => 00,
+                        :end_hour => 23,
+                        :end_minute => 59
+      %>
+    </div>
+
+    <div class="field">
+      <%= f.label :timeto %>
+      <%= f.time_select :timeto,
+                        :combined => true,
+                        :default => Time.now.change(:hour => 11, :min => 30),
+                        :minute_interval => 15,
+                        :time_separator => "",
+                        :start_hour => 00,
+                        :start_minute => 00,
+                        :end_hour => 23,
+                        :end_minute => 59
+      %>
+    </div>
+
+    <div class="field">
+      <%= f.label :members %>
+      <%= f.text_field :members %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

@@ -1,0 +1,31 @@
+<%= form_for(booking) do |f| %>
+
+  <div class="field">
+    <%= f.label :room_id %>
+    <%= f.number_field :room_id  %>
+  </div>
+
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.text_field :date %>
+  </div>
+
+  <div class="field">
+    <%= f.label :timefrom %>
+    <%= f.text_field :timefrom %>
+  </div>
+
+    <div class="field">
+      <%= f.label :timeto %>
+      <%= f.text_field :timeto , :readonly => true %>
+    </div>
+
+   <div class="field">
+    <%= f.label :members %>
+    <%= f.text_field :members , :placeholder => 'comma separated emails of team members' %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

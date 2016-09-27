@@ -1,0 +1,7 @@
+  <%= form_tag(rooms_path,method: :get) do %>
+      <!--hidden_field :number ,params[:number] ,value:1%> -->
+      <div class="search"><%= text_field :number ,params[:number] ,placeholder: "Enter Room Number" %></div>
+      <div class="search"><b>or  </b> Location  <%= select :location, params[:location], options_for_select({"All"=>"","James.B.Hunt"=>"James.B.Hunt","D.H.Hill"=>"D.H.Hill"}, "All"), placeholder: "Select location" %></div>
+      <div class="search"><b>or  </b> Size  <%= select :size, params[:size], options_for_select({"All"=>"","Small (4 seats)"=>"Small", "Medium (8 Seats)"=>"Medium" ,"Large(12 seats)"=>"Large"}, "All"),class: "span2  form-control", placeholder: "Select Size" %>
+      <%= submit_tag 'Search',name: nil%></div>
+  <% end %>

@@ -1,0 +1,63 @@
+<% if current_user %>
+<h2>Rooms</h2>
+    <div id="notice"></div>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Bookings</a></li>
+        <li><a href="#tabs-2">Book a room</a></li>
+        <li><a href="#tabs-3">Total Booking</a></li>
+      </ul>
+      <div id="tabs-1">
+        <div id="calendar"></div>
+      </div>
+      <div id="tabs-2">
+        <%= render 'form1', room: @room %>
+        <table>
+          <thead>
+          <tr>
+            <th>Number</th>
+            <th>Location</th>
+            <th>Size</th>
+            <th colspan="12"></th>
+          </tr>
+          </thead>
+          <tbody>
+          <% @rooms.each do |room| %>
+              <tr>
+                <td><%= room.number %></td>
+                <td><%= room.location %></td>
+                <td><%= room.size %></td>
+                <!--<td><= link_to 'Show', room %></td>-->
+                <td><%= link_to 'Book', find_booking_path(room.number)%></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>
+      <div id="tabs-3">
+        <table>
+          <thead>
+          <tr>
+            <th>Room</th>
+            <th>Date</th>
+            <th>Timefrom</th>
+            <th>Timeto</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <% @bookings_all.each do |booking| %>
+              <tr>
+                <td><%= booking.room_id %></td>
+                <td><%= booking.date %></td>
+                <td><%= booking.timefrom %></td>
+                <td><%= booking.timeto %></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+<br>
+
+<% end %>

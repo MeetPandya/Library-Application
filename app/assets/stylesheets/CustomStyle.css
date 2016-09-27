@@ -1,0 +1,58 @@
+.loginBoxContainer{
+    height: 200px;
+    width: 50%;
+    padding-right: 5%;
+    alignment: center;
+}
+
+.loginTable{
+    alignment : center;
+    padding-left: 25%;
+}
+
+.emailContainer{
+    width: 100%;
+    height: 40px;
+
+}
+
+.passwordContainer{
+    width: 100%;
+    height: 40px;
+}
+
+.headerLogo{
+    font-style: normal;
+    font-family: Calibri;
+    font-size: 45px;
+    margin : 0px;
+}
+
+#notice {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.tags {
+    width: 250px!important;
+    display: inline-block;
+    text-align: center;
+}
+.search{
+    width: 360px;
+    display: inline-block;
+}
+
+.logoContainer {
+    border: none;
+    color: white;
+    background: #4d4dff;
+    alignment: center;
+    height: 90px;
+    width: 100%;
+}
+.signup{
+    width: 40%;
+    left: 35%;
+    position: absolute;
+}

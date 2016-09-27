@@ -1,0 +1,41 @@
+<div id="mainContainer" align="center">
+  <h2><b>Login</b></h2>
+  <div id = "loginBoxContainer" class="loginBoxContainer">
+    <%= form_for(:session, url: login_path) do |f| %>
+      <div id="tableContainer">
+        <table class="loginTable">
+          <tr> </tr>
+          <tr>
+
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <td style="width: 100%">
+              <div id="emailContainer" class="emailContainer">
+                <%= f.email_field :email,  :placeholder => "Email" %>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="passwordContainer" class="passwordContainer">
+                <%= f.password_field :password, :placeholder => "Password", :object_id => "password" %>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <%= f.submit "Log in", class: "btn-submit" %>
+              <%= link_to "Admin Login", '/admin' %>
+            </td>
+          </tr>
+          <tr>
+            <td><u>New User?</u>
+              <%= link_to "Signup", 'signup' %></a></td>
+          </tr>
+        </table>
+      </div>
+    <% end %>
+  </div>
+</div>

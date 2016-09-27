@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: "111"
+  size: "Small"
+  location: "D.H.Hill"
+
+two:
+  number: "12"
+  size: "Medium"
+  location: "D.H.Hill"
+
+

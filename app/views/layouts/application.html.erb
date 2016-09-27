@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <div id="logoContainer" class="logoContainer" align="center">
+    <p class="headerLogo" align="center"><b style="top: 30px;position: relative;">Library Room Reservation</b></p>
+  </div>
+  <div align="right" style="height:24px;" width="300">
+    <% if current_user %>
+        <div class="tags">Hello : <%= current_user.first_name %></div>
+        <div class="tags"><%= link_to "Edit Profile" , edit_user_path(current_user.id) %></div>
+        <div class="tags"><%= link_to 'My Currnet Bookings', show_user_booking_path(current_user.id) %></div>
+        <div class="tags"> <%= link_to 'My Booking History' , show_booking_history_path(current_user.id) %></div>
+        <div class="tags"><%= link_to "Log out", logout_path, method: "delete" %></div>
+    <% end %>
+  </div>
+  <p id="error"><%= flash[:error] %></p>
+  <p id="notice"><%= flash[:notice] %></p>
+  <head>
+    <title>First</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

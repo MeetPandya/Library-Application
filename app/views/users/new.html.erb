@@ -1,0 +1,11 @@
+<div class="signup">
+<%= form_for(:user, url: signup_path) do |f| %>
+    <%= f.text_field :first_name, :placeholder => "First name" %>
+    <%= f.text_field :last_name, :placeholder => "Last name" %>
+    <%= f.email_field :email, :placeholder => "Email" %>
+    <%= f.password_field :password, :placeholder => "Password" %>
+    <%= f.hidden_field :hasBooked , value: 0 %>
+    <%= f.hidden_field :allowMultiple ,value: 0 %>
+    <%= f.submit "Create an account", class: "btn-submit", style:"left: 15%;margin: 40px;position: absolute;"%>
+<% end %>
+  </div>

@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<!-- <div id="calendar"></div> -->
+
+<h1>Bookings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Room</th>
+      <th>Date</th>
+      <th>Timefrom</th>
+      <th>Timeto</th>
+      <th>Members</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bookings.each do |booking| %>
+      <tr>
+        <td><%= booking.room_id %></td>
+        <td><%= booking.date %></td>
+        <td><%= booking.timefrom %></td>
+        <td><%= booking.timeto %></td>
+        <td><%= booking.members %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Back', rooms_path %>

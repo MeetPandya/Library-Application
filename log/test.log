@@ -1,0 +1,1789 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.578582', '2016-09-24 18:52:14.578582', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.578582', '2016-09-24 18:52:14.578582', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.584763', '2016-09-24 18:52:14.584763', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.584763', '2016-09-24 18:52:14.584763', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.586623', '2016-09-24 18:52:14.586623', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.586623', '2016-09-24 18:52:14.586623', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.878216', '2016-09-24 18:52:14.878216', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.878216', '2016-09-24 18:52:14.878216', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.879752', '2016-09-24 18:52:14.879752', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.879752', '2016-09-24 18:52:14.879752', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.880835', '2016-09-24 18:52:14.880835', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.880835', '2016-09-24 18:52:14.880835', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.885616', '2016-09-24 18:52:14.885616', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.885616', '2016-09-24 18:52:14.885616', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.887329', '2016-09-24 18:52:14.887329', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.887329', '2016-09-24 18:52:14.887329', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.889030', '2016-09-24 18:52:14.889030', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.889030', '2016-09-24 18:52:14.889030', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.893587', '2016-09-24 18:52:14.893587', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.893587', '2016-09-24 18:52:14.893587', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.894887', '2016-09-24 18:52:14.894887', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.894887', '2016-09-24 18:52:14.894887', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.895698', '2016-09-24 18:52:14.895698', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.895698', '2016-09-24 18:52:14.895698', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.900050', '2016-09-24 18:52:14.900050', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.900050', '2016-09-24 18:52:14.900050', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.901260', '2016-09-24 18:52:14.901260', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.901260', '2016-09-24 18:52:14.901260', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.902290', '2016-09-24 18:52:14.902290', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.902290', '2016-09-24 18:52:14.902290', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.908146', '2016-09-24 18:52:14.908146', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.908146', '2016-09-24 18:52:14.908146', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.910939', '2016-09-24 18:52:14.910939', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.910939', '2016-09-24 18:52:14.910939', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.911857', '2016-09-24 18:52:14.911857', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.911857', '2016-09-24 18:52:14.911857', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.916416', '2016-09-24 18:52:14.916416', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.916416', '2016-09-24 18:52:14.916416', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.917940', '2016-09-24 18:52:14.917940', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.917940', '2016-09-24 18:52:14.917940', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.919358', '2016-09-24 18:52:14.919358', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.919358', '2016-09-24 18:52:14.919358', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.924467', '2016-09-24 18:52:14.924467', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.924467', '2016-09-24 18:52:14.924467', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.925508', '2016-09-24 18:52:14.925508', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.925508', '2016-09-24 18:52:14.925508', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.926517', '2016-09-24 18:52:14.926517', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.926517', '2016-09-24 18:52:14.926517', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.930995', '2016-09-24 18:52:14.930995', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.930995', '2016-09-24 18:52:14.930995', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.932314', '2016-09-24 18:52:14.932314', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.932314', '2016-09-24 18:52:14.932314', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.933428', '2016-09-24 18:52:14.933428', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.933428', '2016-09-24 18:52:14.933428', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.940121', '2016-09-24 18:52:14.940121', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.940121', '2016-09-24 18:52:14.940121', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.942419', '2016-09-24 18:52:14.942419', 980190962)[0m
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.942419', '2016-09-24 18:52:14.942419', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.943580', '2016-09-24 18:52:14.943580', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.943580', '2016-09-24 18:52:14.943580', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.947815', '2016-09-24 18:52:14.947815', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.947815', '2016-09-24 18:52:14.947815', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.949009', '2016-09-24 18:52:14.949009', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.949009', '2016-09-24 18:52:14.949009', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.949934', '2016-09-24 18:52:14.949934', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.949934', '2016-09-24 18:52:14.949934', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.954307', '2016-09-24 18:52:14.954307', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.954307', '2016-09-24 18:52:14.954307', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.955459', '2016-09-24 18:52:14.955459', 980190962)[0m
+  [1m[36mFixture Insert (0.0ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.955459', '2016-09-24 18:52:14.955459', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.956309', '2016-09-24 18:52:14.956309', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.956309', '2016-09-24 18:52:14.956309', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.960528', '2016-09-24 18:52:14.960528', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.960528', '2016-09-24 18:52:14.960528', 298486374)[0m
+  [1m[36mFixture Delete (0.0ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.961688', '2016-09-24 18:52:14.961688', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.961688', '2016-09-24 18:52:14.961688', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.962694', '2016-09-24 18:52:14.962694', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.962694', '2016-09-24 18:52:14.962694', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.968754', '2016-09-24 18:52:14.968754', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.968754', '2016-09-24 18:52:14.968754', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.971733', '2016-09-24 18:52:14.971733', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-24 18:52:14.971733', '2016-09-24 18:52:14.971733', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.973327', '2016-09-24 18:52:14.973327', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-24 18:52:14.973327', '2016-09-24 18:52:14.973327', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.132418', '2016-09-25 22:55:32.132418', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.132418', '2016-09-25 22:55:32.132418', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.136800', '2016-09-25 22:55:32.136800', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.136800', '2016-09-25 22:55:32.136800', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.138555', '2016-09-25 22:55:32.138555', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.138555', '2016-09-25 22:55:32.138555', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.145736', '2016-09-25 22:55:32.145736', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.145736', '2016-09-25 22:55:32.145736', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.147359', '2016-09-25 22:55:32.147359', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.147359', '2016-09-25 22:55:32.147359', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.148750', '2016-09-25 22:55:32.148750', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.148750', '2016-09-25 22:55:32.148750', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.155643', '2016-09-25 22:55:32.155643', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.155643', '2016-09-25 22:55:32.155643', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.157639', '2016-09-25 22:55:32.157639', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.157639', '2016-09-25 22:55:32.157639', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.4ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.159414', '2016-09-25 22:55:32.159414', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.159414', '2016-09-25 22:55:32.159414', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.167901', '2016-09-25 22:55:32.167901', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.167901', '2016-09-25 22:55:32.167901', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.169839', '2016-09-25 22:55:32.169839', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.169839', '2016-09-25 22:55:32.169839', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.171625', '2016-09-25 22:55:32.171625', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.171625', '2016-09-25 22:55:32.171625', 298486374)[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.180725', '2016-09-25 22:55:32.180725', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.180725', '2016-09-25 22:55:32.180725', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.182620', '2016-09-25 22:55:32.182620', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.182620', '2016-09-25 22:55:32.182620', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.184333', '2016-09-25 22:55:32.184333', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.184333', '2016-09-25 22:55:32.184333', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.192783', '2016-09-25 22:55:32.192783', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.192783', '2016-09-25 22:55:32.192783', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.194581', '2016-09-25 22:55:32.194581', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.194581', '2016-09-25 22:55:32.194581', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.196351', '2016-09-25 22:55:32.196351', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.196351', '2016-09-25 22:55:32.196351', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.220522', '2016-09-25 22:55:32.220522', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.220522', '2016-09-25 22:55:32.220522', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.221763', '2016-09-25 22:55:32.221763', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:55:32.221763', '2016-09-25 22:55:32.221763', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.223014', '2016-09-25 22:55:32.223014', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:55:32.223014', '2016-09-25 22:55:32.223014', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.883623', '2016-09-25 22:56:10.883623', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.883623', '2016-09-25 22:56:10.883623', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.888363', '2016-09-25 22:56:10.888363', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.888363', '2016-09-25 22:56:10.888363', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.890993', '2016-09-25 22:56:10.890993', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.890993', '2016-09-25 22:56:10.890993', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.897902', '2016-09-25 22:56:10.897902', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.897902', '2016-09-25 22:56:10.897902', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.899368', '2016-09-25 22:56:10.899368', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.899368', '2016-09-25 22:56:10.899368', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.900498', '2016-09-25 22:56:10.900498', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.900498', '2016-09-25 22:56:10.900498', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.908392', '2016-09-25 22:56:10.908392', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.908392', '2016-09-25 22:56:10.908392', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.910601', '2016-09-25 22:56:10.910601', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.910601', '2016-09-25 22:56:10.910601', 298486374)[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.912182', '2016-09-25 22:56:10.912182', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.912182', '2016-09-25 22:56:10.912182', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.919536', '2016-09-25 22:56:10.919536', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.919536', '2016-09-25 22:56:10.919536', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.921769', '2016-09-25 22:56:10.921769', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.921769', '2016-09-25 22:56:10.921769', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.923613', '2016-09-25 22:56:10.923613', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.923613', '2016-09-25 22:56:10.923613', 298486374)[0m
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.933504', '2016-09-25 22:56:10.933504', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.933504', '2016-09-25 22:56:10.933504', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.935649', '2016-09-25 22:56:10.935649', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.935649', '2016-09-25 22:56:10.935649', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.937985', '2016-09-25 22:56:10.937985', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.937985', '2016-09-25 22:56:10.937985', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.8ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.947384', '2016-09-25 22:56:10.947384', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.947384', '2016-09-25 22:56:10.947384', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.950349', '2016-09-25 22:56:10.950349', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.950349', '2016-09-25 22:56:10.950349', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.952258', '2016-09-25 22:56:10.952258', 980190962)[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.952258', '2016-09-25 22:56:10.952258', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "bookinghistories"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.982476', '2016-09-25 22:56:10.982476', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "bookinghistories" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.982476', '2016-09-25 22:56:10.982476', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.983987', '2016-09-25 22:56:10.983987', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-25 22:56:10.983987', '2016-09-25 22:56:10.983987', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "admin_users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.984978', '2016-09-25 22:56:10.984978', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "admin_users" ("created_at", "updated_at", "id") VALUES ('2016-09-25 22:56:10.984978', '2016-09-25 22:56:10.984978', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:04:19.935812', '2016-09-26 01:04:19.935812', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:04:19.935812', '2016-09-26 01:04:19.935812', 298486374)[0m
+  [1m[35m (22.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:04:34.751363', '2016-09-26 01:04:34.751363', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:04:34.751363', '2016-09-26 01:04:34.751363', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:07:08.156077', '2016-09-26 01:07:08.156077', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:07:08.156077', '2016-09-26 01:07:08.156077', 298486374)[0m
+  [1m[35m (21.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:07:22.421290', '2016-09-26 01:07:22.421290', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:07:22.421290', '2016-09-26 01:07:22.421290', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (1.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:07:40.788333', '2016-09-26 01:07:40.788333', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:07:40.788333', '2016-09-26 01:07:40.788333', 298486374)[0m
+  [1m[35m (22.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:07:56.558483', '2016-09-26 01:07:56.558483', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:07:56.558483', '2016-09-26 01:07:56.558483', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:08:11.406370', '2016-09-26 01:08:11.406370', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:08:11.406370', '2016-09-26 01:08:11.406370', 298486374)[0m
+  [1m[35m (14.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.8ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:08:46.292637', '2016-09-26 01:08:46.292637', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:08:46.292637', '2016-09-26 01:08:46.292637', 298486374)[0m
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:09:15.308891', '2016-09-26 01:09:15.308891', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:09:15.308891', '2016-09-26 01:09:15.308891', 298486374)[0m
+  [1m[35m (14.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:10:10.582304', '2016-09-26 01:10:10.582304', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:10:10.582304', '2016-09-26 01:10:10.582304', 298486374)[0m
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users" for 127.0.0.1 at 2016-09-25 21:10:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started DELETE "/users.980190962" for 127.0.0.1 at 2016-09-25 21:10:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/users.980190962" for 127.0.0.1 at 2016-09-25 21:10:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users.980190962" for 127.0.0.1 at 2016-09-25 21:10:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users/new" for 127.0.0.1 at 2016-09-25 21:10:10 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25000ms (Views: 24992.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2016-09-25 21:10:35 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"first_name"=>"Rutvij", "last_name"=>"Mehta", "email"=>"Rutvij@gmail.com", "password"=>"[FILTERED]", "hasBooked"=>"0", "allowMultiple"=>"0"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Redirected to http://www.example.comsignup
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users/980190962/edit" for 127.0.0.1 at 2016-09-25 21:10:35 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (6.0ms)
+  Rendered users/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Rutvij', 'Mehta', 'Rutvij@gmail.com', 0, 0, '2016-09-26 01:15:17.998706', '2016-09-26 01:15:17.998706', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "hasBooked", "allowMultiple", "created_at", "updated_at", "id") VALUES ('Meet', 'Pandya', 'Meet@gmail.com', 0, 0, '2016-09-26 01:15:17.998706', '2016-09-26 01:15:17.998706', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+UsersControllerTest: test_should_destroy_user
+---------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started DELETE "/users.980190962" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_update_user
+--------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/users.980190962" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users/new" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 347ms (Views: 338.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+UsersControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users/980190962/edit" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (5.3ms)
+  Rendered users/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+UsersControllerTest: test_should_create_user
+--------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"first_name"=>"Rutvij", "last_name"=>"Mehta", "email"=>"Rutvij@gmail.com", "password"=>"[FILTERED]", "hasBooked"=>"0", "allowMultiple"=>"0"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Redirected to http://www.example.comsignup
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+UsersControllerTest: test_should_show_user
+------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/users.980190962" for 127.0.0.1 at 2016-09-25 21:15:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.584666', '2016-09-26 01:21:02.584666', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.584666', '2016-09-26 01:21:02.584666', 298486374)[0m
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.593346', '2016-09-26 01:21:02.593346', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.593346', '2016-09-26 01:21:02.593346', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.597053', '2016-09-26 01:21:02.597053', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.597053', '2016-09-26 01:21:02.597053', 298486374)[0m
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.601825', '2016-09-26 01:21:02.601825', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.601825', '2016-09-26 01:21:02.601825', 298486374)[0m
+  [1m[35m (4.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.610527', '2016-09-26 01:21:02.610527', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.610527', '2016-09-26 01:21:02.610527', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.614135', '2016-09-26 01:21:02.614135', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.614135', '2016-09-26 01:21:02.614135', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.617898', '2016-09-26 01:21:02.617898', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:02.617898', '2016-09-26 01:21:02.617898', 298486374)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('1', 'Small', 'D.H.Hill', '2016-09-26 01:21:46.732092', '2016-09-26 01:21:46.732092', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:21:46.732092', '2016-09-26 01:21:46.732092', 298486374)[0m
+  [1m[35m (16.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+RoomsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/new" for 127.0.0.1 at 2016-09-25 21:21:46 -0400
+Processing by RoomsController#new as HTML
+  Rendering rooms/new.html.erb within layouts/application
+  Rendered rooms/_form.html.erb (6.6ms)
+  Rendered rooms/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 359ms (Views: 351.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_show_room
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_create_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started POST "/rooms" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#create as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["number", "1"], ["size", "Small"], ["location", "D.H.Hill"], ["created_at", 2016-09-26 01:21:47 UTC], ["updated_at", 2016-09-26 01:21:47 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+RoomsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962/edit" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+RoomsControllerTest: test_should_destroy_room
+---------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started DELETE "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms" WHERE (number=NULL or size=NULL or location =NULL)[0m
+  Rendering rooms/index.html.erb within layouts/application
+  Rendered rooms/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_update_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:21:47 -0400
+Processing by RoomsController#update as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}, "id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('1', 'Small', 'D.H.Hill', '2016-09-26 01:22:40.454595', '2016-09-26 01:22:40.454595', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:22:40.454595', '2016-09-26 01:22:40.454595', 298486374)[0m
+  [1m[35m (16.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+RoomsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962/edit" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms" WHERE (number=NULL or size=NULL or location =NULL)[0m
+  Rendering rooms/index.html.erb within layouts/application
+  Rendered rooms/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 365ms (Views: 363.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+RoomsControllerTest: test_should_destroy_room
+---------------------------------------------
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started DELETE "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+RoomsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/new" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#new as HTML
+  Rendering rooms/new.html.erb within layouts/application
+  Rendered rooms/_form.html.erb (5.6ms)
+  Rendered rooms/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_create_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started POST "/rooms" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#create as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["number", "1"], ["size", "Small"], ["location", "D.H.Hill"], ["created_at", 2016-09-26 01:22:40 UTC], ["updated_at", 2016-09-26 01:22:40 UTC]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_show_room
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_update_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:22:40 -0400
+Processing by RoomsController#update as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}, "id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('1', 'Small', 'D.H.Hill', '2016-09-26 01:23:04.060906', '2016-09-26 01:23:04.060906', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:23:04.060906', '2016-09-26 01:23:04.060906', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_update_room
+--------------------------------------------
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#update as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}, "id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_show_room
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms" WHERE (number=NULL or size=NULL or location =NULL)[0m
+  Rendering rooms/index.html.erb within layouts/application
+  Rendered rooms/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 350ms (Views: 346.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_create_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started POST "/rooms" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#create as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["number", "1"], ["size", "Small"], ["location", "D.H.Hill"], ["created_at", 2016-09-26 01:23:04 UTC], ["updated_at", 2016-09-26 01:23:04 UTC]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+RoomsControllerTest: test_should_destroy_room
+---------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started DELETE "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+RoomsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962/edit" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+RoomsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/new" for 127.0.0.1 at 2016-09-25 21:23:04 -0400
+Processing by RoomsController#new as HTML
+  Rendering rooms/new.html.erb within layouts/application
+  Rendered rooms/_form.html.erb (7.7ms)
+  Rendered rooms/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('1', 'Small', 'D.H.Hill', '2016-09-26 01:32:19.080603', '2016-09-26 01:32:19.080603', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:32:19.080603', '2016-09-26 01:32:19.080603', 298486374)[0m
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+RoomsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962/edit" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_update_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#update as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}, "id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms" WHERE (number=NULL or size=NULL or location =NULL)[0m
+  Rendering rooms/index.html.erb within layouts/application
+  Rendered rooms/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 358ms (Views: 355.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_create_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started POST "/rooms" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#create as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"1", "size"=>"Small"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["number", "1"], ["size", "Small"], ["location", "D.H.Hill"], ["created_at", 2016-09-26 01:32:19 UTC], ["updated_at", 2016-09-26 01:32:19 UTC]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+RoomsControllerTest: test_should_destroy_room
+---------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started DELETE "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+RoomsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/new" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#new as HTML
+  Rendering rooms/new.html.erb within layouts/application
+  Rendered rooms/_form.html.erb (6.1ms)
+  Rendered rooms/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_show_room
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:32:19 -0400
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:33:58.856687', '2016-09-26 01:33:58.856687', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 01:33:58.856687', '2016-09-26 01:33:58.856687', 298486374)[0m
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_get_index
+------------------------------------------
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2016-09-25 21:33:58 -0400
+Processing by RoomsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms" WHERE (number=NULL or size=NULL or location =NULL)[0m
+  Rendering rooms/index.html.erb within layouts/application
+  Rendered rooms/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 360ms (Views: 351.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+RoomsControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/new" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#new as HTML
+  Rendering rooms/new.html.erb within layouts/application
+  Rendered rooms/_form.html.erb (7.7ms)
+  Rendered rooms/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_create_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started POST "/rooms" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#create as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"111", "size"=>"Small"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["number", "111"], ["size", "Small"], ["location", "D.H.Hill"], ["created_at", 2016-09-26 01:33:59 UTC], ["updated_at", 2016-09-26 01:33:59 UTC]]
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------
+RoomsControllerTest: test_should_destroy_room
+---------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+Started DELETE "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "rooms"[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+RoomsControllerTest: test_should_get_edit
+-----------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962/edit" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#edit as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+RoomsControllerTest: test_should_show_room
+------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started GET "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#show as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+RoomsControllerTest: test_should_update_room
+--------------------------------------------
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = ? LIMIT ?[0m  [["id", 980190962], ["LIMIT", 1]]
+Started PATCH "/rooms/980190962" for 127.0.0.1 at 2016-09-25 21:33:59 -0400
+Processing by RoomsController#update as HTML
+  Parameters: {"room"=>{"location"=>"D.H.Hill", "number"=>"111", "size"=>"Small"}, "id"=>"980190962"}
+Redirected to http://www.example.comlogin
+Filter chain halted as :required_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:42:41.966890', '2016-09-26 01:42:41.966890', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:42:41.966890', '2016-09-26 01:42:41.966890', 298486374)[0m
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_name
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:43:39.843326', '2016-09-26 01:43:39.843326', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:43:39.843326', '2016-09-26 01:43:39.843326', 298486374)[0m
+  [1m[35m (11.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_name
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:46:25.657926', '2016-09-26 01:46:25.657926', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:46:25.657926', '2016-09-26 01:46:25.657926', 298486374)[0m
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_name
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:47:33.218793', '2016-09-26 01:47:33.218793', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:47:33.218793', '2016-09-26 01:47:33.218793', 298486374)[0m
+  [1m[35m (11.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:51:29.435950', '2016-09-26 01:51:29.435950', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:51:29.435950', '2016-09-26 01:51:29.435950', 298486374)[0m
+  [1m[35m (16.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:51:46.821967', '2016-09-26 01:51:46.821967', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:51:46.821967', '2016-09-26 01:51:46.821967', 298486374)[0m
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:52:06.078967', '2016-09-26 01:52:06.078967', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:52:06.078967', '2016-09-26 01:52:06.078967', 298486374)[0m
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:59:35.842239', '2016-09-26 01:59:35.842239', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:59:35.842239', '2016-09-26 01:59:35.842239', 298486374)[0m
+  [1m[35m (21.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 01:59:56.041904', '2016-09-26 01:59:56.041904', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 01:59:56.041904', '2016-09-26 01:59:56.041904', 298486374)[0m
+  [1m[35m (15.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.3ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 02:03:00.175906', '2016-09-26 02:03:00.175906', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 02:03:00.175906', '2016-09-26 02:03:00.175906', 298486374)[0m
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------
+RoomTest: test_valid_room
+-------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------
+RoomTest: test_invalid_without_location
+---------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------
+RoomTest: test_invalid_without_number
+-------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------
+RoomTest: test_invalid_without_size
+-----------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 02:04:27.478411', '2016-09-26 02:04:27.478411', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 02:04:27.478411', '2016-09-26 02:04:27.478411', 298486374)[0m
+  [1m[35m (21.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "rooms"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('111', 'Small', 'D.H.Hill', '2016-09-26 02:04:34.343587', '2016-09-26 02:04:34.343587', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "rooms" ("number", "size", "location", "created_at", "updated_at", "id") VALUES ('12', 'Medium', 'D.H.Hill', '2016-09-26 02:04:34.343587', '2016-09-26 02:04:34.343587', 298486374)[0m
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------
+RoomTest: test_duplicate_room
+-----------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
